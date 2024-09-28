@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Released on Swangnice</title>
+    <link>http://localhost:1313/released/</link>
+    <description>Recent content in Released on Swangnice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>swangnice@outlook.com (swang)</managingEditor>
+    <webMaster>swangnice@outlook.com (swang)</webMaster>
+    <copyright>© 2024 swang</copyright>
+    <lastBuildDate>Sat, 21 Sep 2024 04:32:15 +0000</lastBuildDate><atom:link href="http://localhost:1313/released/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

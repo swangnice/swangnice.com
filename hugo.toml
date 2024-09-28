@@ -1,0 +1,116 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Swangnice'
+theme = "blowfish"
+publishDir = "public" 
+colorScheme = "Forest"
+
+[params]
+  defaultContentOrder = "weight"  
+  [params.author]
+    name = "swang"
+    email = "swangnice@outlook.com"
+
+
+[menu]
+  #about
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+  
+  #blogs
+  [[menu.main]]
+    identifier = "blogs"
+    name = "Blogs"
+    url = "/blogs/"
+    weight = 2
+  
+  #notes
+  [[menu.main]]
+    identifier = "notes"
+    name = "Notes"
+    url = "/notes/"
+    weight = 3
+
+    [[menu.main]]
+      identifier = "personal_page_buildup"
+      name = "Personal Page Buildup"
+      parent = "notes"
+      url = "/notes/personal_page_buildup/"
+      weight = 1
+  
+  #projects
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 4
+
+    [[menu.main]]
+      identifier = "website_app"
+      name = "Website/APP"
+      parent = "projects"
+      url = "/projects/website_app/"
+      weight = 13
+
+        [[menu.main]]
+          identifier = "swangnice"
+          name = "swangnice.com"
+          parent = "website_app"
+          url = "/projects/website_app/swangnice/"
+          weight = 1
+
+  #Released
+  [[menu.main]]
+    identifier = "released"
+    name = "Released"
+    url = "/released/"
+    weight = 5
+
+  #yolo
+  [[menu.main]]
+    identifier = "yolo"
+    name = "YOLO!"
+    url = "/yolo/"
+    weight = 6
+
+    [[menu.main]]
+      identifier = "my_routes"
+      name = "My Routes"
+      parent = "yolo"
+      url = "/yolo/my_routes/"
+      weight = 1
+
+    [[menu.main]]
+      identifier = "my_pets"
+      name = "My Pets"
+      parent = "yolo"
+      url = "/yolo/my_pets/"
+      weight = 2
+
+    [[menu.main]]
+      identifier = "film_photography"
+      name = "Film Photography"
+      parent = "yolo"
+      url = "/yolo/film_photography/"
+      weight = 3
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
+
+
+
+defaultContentLanguage = "en"
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+  [languages.zh]
+    languageName = "中文"
+    weight = 2
+
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Swangnice</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Swangnice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>swangnice@outlook.com (swang)</managingEditor>
+    <webMaster>swangnice@outlook.com (swang)</webMaster>
+    <copyright>© 2024 swang</copyright>
+    <lastBuildDate>Fri, 20 Sep 2024 06:15:03 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Static Web</title>
+      <link>http://localhost:1313/categories/static-web/</link>
+      <pubDate>Fri, 20 Sep 2024 06:15:03 +0000</pubDate>
+      <author>swangnice@outlook.com (swang)</author>
+      <guid>http://localhost:1313/categories/static-web/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>http://localhost:1313/categories/tutorial/</link>
+      <pubDate>Fri, 20 Sep 2024 06:15:03 +0000</pubDate>
+      <author>swangnice@outlook.com (swang)</author>
+      <guid>http://localhost:1313/categories/tutorial/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
